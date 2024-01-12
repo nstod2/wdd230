@@ -53,8 +53,10 @@ nav a:hover {
     background-color: rgb(84, 179, 226);
 }
 
-.active {
-    color: white;
+nav .active {
+    color: rgb(79, 132, 158);
+    text-decoration: underline;
+    font-weight: 400;
 }
 
 h1 {
