@@ -1,0 +1,138 @@
+header {
+    background-color: #023047;
+    color: #FB8500;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    max-width: 850px;
+    margin: 0 auto;
+    border: 1px solid #023047;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    border: 1px solid #023047;
+}
+
+footer {
+    background-color: #FFB703;
+    color: #023047;
+    padding: 30px;
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #023047;
+}
+
+section {
+    font-family: 'Rubik', sans-serif;
+    background-color: #8ECAE6;
+    padding: 15px;
+}
+
+h2 {
+    font-family: 'Merriweather', serif;
+    color: #FB8500;
+}
+
+p {
+    color: #023047;
+}
+
+.name {
+    background-color: #219EBC;
+}
+
+.name p {
+    text-indent: 20px;
+}
+
+.purpose {
+    border: 1px solid #023047;
+}
+
+.purpose p {
+    text-indent: 20px;
+}
+
+.scenarios {
+    background-color: #219EBC;
+}
+
+.color {
+    border: 1px solid #023047;
+}
+
+.typography {
+    background-color: #219EBC;
+}
+
+.wireframe {
+    border: 1px solid #023047;
+}
+
+
+#palette {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#primary {
+    background-color: #FB8500;
+    color: white;
+    padding: 10px;
+}
+
+#secondary {
+    background-color: #023047;
+    color: white;
+    padding: 10px;
+}
+
+#accent1 {
+    background-color: #8ECAE6;
+    color: white;
+    padding: 10px;
+}
+
+#accent2 {
+    background-color: #FFB703;
+    color: white;
+    padding: 10px;
+}
+
+#accent3 {
+    background-color: #219EBC;
+    color: white;
+    padding: 10px;
+}
+
+#merriweather {
+    font-family: 'Merriweather', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+#rubik {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+}
+
+#images {
+    display: flex;
+    justify-content: space-around;
+}
+
+#images img {
+    height: 200px;
+    width: 150px;
+}
+
+.wireframe {
+    text-align: center;
+}
