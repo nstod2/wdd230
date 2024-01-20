@@ -12,6 +12,7 @@
 
     nav {
         max-width: 800px;
+        padding: 30px;
     }
     nav ul {
         display: flex;
@@ -31,5 +32,9 @@
     footer p {
         display: block;
         text-align: center;
+    }
+
+    #menu {
+        display: none;
     }
 }

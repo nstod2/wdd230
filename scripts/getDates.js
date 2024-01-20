@@ -8,3 +8,5 @@ const sec = today.getSeconds();
 let dateTime = month + '/' + day + '/' + year + ' ' + hour + ':' + min + ':' + sec;
 document.querySelector('#lastModified').textContent = `Last Modification: ${dateTime}`;
 document.querySelector('#copyright').innerHTML = `&copy ${year}`;
+
+

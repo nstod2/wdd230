@@ -59,6 +59,13 @@ nav .active {
     font-weight: 400;
 }
 
+#menu {
+    font-size: 1.5rem;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
 h1 {
     color: black;
     font-weight: 400;
