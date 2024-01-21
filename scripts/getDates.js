@@ -9,4 +9,10 @@ let dateTime = month + '/' + day + '/' + year + ' ' + hour + ':' + min + ':' + s
 document.querySelector('#lastModified').textContent = `Last Modification: ${dateTime}`;
 document.querySelector('#copyright').innerHTML = `&copy ${year}`;
 
+const button = document.querySelector('#menu');
+const navigation = document.querySelector('.navigation');
 
+button.addEventListener('click', () => {
+    navigation.classList.toggle('open');
+    button.classList.toggle('open');
+});

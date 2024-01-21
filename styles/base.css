@@ -41,12 +41,10 @@ nav ul {
 }
 
 nav a {
-    display: block;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    text-decoration: none;
+    display: none;
 }
+
+
 
 nav a:hover {
     color: rgb(23, 89, 121);
@@ -60,10 +58,26 @@ nav .active {
 }
 
 #menu {
-    font-size: 1.5rem;
-    border: 2px solid black;
-    padding: 20px;
-    margin: 20px;
+    font-size: 1.0rem;
+    border: 1px solid black;
+    padding: 5px;
+    margin: 10px;
+}
+
+#menu::before {
+    content: '\2630';
+}
+
+#menu.open::before {
+    content: '❌';
+}
+
+.navigation.open a {
+    display: block;
+    text-align: left;
+    color: black;
+    padding: 5px;
+    text-decoration: none;
 }
 
 h1 {
