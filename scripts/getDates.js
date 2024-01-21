@@ -16,3 +16,19 @@ button.addEventListener('click', () => {
     navigation.classList.toggle('open');
     button.classList.toggle('open');
 });
+
+const modeButton = document.querySelector('#mode');
+const main = document.querySelector('main');
+const heading = document.querySelector('h1');
+
+modeButton.addEventListener('click', () => {
+    if (modeButton.textContent.includes("☾")) {
+        main.style.background = "#000";
+        heading.style.color = "#fff";
+        modeButton.textContent = "☼";
+    } else {
+        main.style.background = "#fff";
+        heading.style.color = "#000";
+        modeButton.textContent = "☾";
+    }
+});

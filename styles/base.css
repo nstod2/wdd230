@@ -17,6 +17,11 @@ header {
     padding: 15px;
     max-width: 850px;
     margin: 0 auto;
+    position: relative;
+}
+
+main {
+    padding-bottom: 25px;
 }
 
 img {
@@ -57,6 +62,14 @@ nav .active {
     font-weight: 400;
 }
 
+#mode {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 36px;
+    cursor: pointer;
+}
+
 #menu {
     font-size: 1.0rem;
     border: 1px solid black;
@@ -89,6 +102,7 @@ h1 {
     text-decoration: underline;
     text-align: center;
     padding: 20px;
+    margin: 0rem auto;
 }
 
 #parent {
@@ -100,6 +114,8 @@ h1 {
     border-radius: 10px;
     overflow: hidden;
     margin: 1rem 0;
+    background-color: white;
+    color: black;
 }
 
 .card h2 {
@@ -128,7 +144,7 @@ h1 {
 footer {
     background-color: rgb(134, 204, 240);
     max-width: 900px;
-    margin: 20px auto;
+    margin: 0px auto;
     padding: 20px;
 }
 
