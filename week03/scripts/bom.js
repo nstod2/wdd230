@@ -13,7 +13,7 @@ button.addEventListener('click', () => {
         chaptersArray.push(input.value);
         setChapterList();
         input.value = '';
-        input.focus()
+        input.focus();
     }
 });
 
@@ -21,29 +21,27 @@ function displayList(item) {
     let li = document.createElement('li');
     let deleteButton = document.createElement('button');
     li.textContent = item;
-    deleteButton.textContent = "❌";
-    deleteButton.classList.add("delete");
+    deleteButton.textContent = '❌';
+    deleteButton.classList.add('delete');
     li.append(deleteButton);
     list.append(li);
     deleteButton.addEventListener('click', function () {
         list.removeChild(li);
-        deleteChapter(item);
+        deleteChapter(li.textContent);
         input.focus();
     });
-    input.value = '';
-    input.focus();
 }
 
 function setChapterList() {
-    localStorage.setItem('myFavBOMChaptersList', JSON.stringify(chaptersArray));
+    localStorage.setItem('myFavBOMList', JSON.stringify(chaptersArray));
 }
 
 function getChapterList() {
-    JSON.parse(localStorage.getItem('myFavBOMChaptersList'));
+    JSON.parse(localStorage.getItem('myFavBOMList'));
 }
 
 function deleteChapter(chapter) {
     chapter = chapter.slice(0, chapter.length - 1);
-    chaptersArray = chaptersArray.filter((item) => item !== chapter);
+    chaptersArray = chaptersArray.filter(item => item !== chapter);
     setChapterList();
 }
