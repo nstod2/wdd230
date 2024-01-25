@@ -25,16 +25,16 @@ function displayList(item) {
     let deleteButton = document.createElement('button');
     li.textContent = item;
     deleteButton.textContent = "❌";
-    deleteButton.classList.add('delete');
+    deleteButton.classList.add("delete");
     li.append(deleteButton);
     list.append(li);
     deleteButton.addEventListener('click', function () {
         list.removeChild(li);
-        deleteChapter(li.textContent);
+        deleteChapter(item);
         input.focus();
     });
-        input.focus();
         input.value = '';
+        input.focus();
 }
 
 function setChapterList() {
