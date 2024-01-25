@@ -2,6 +2,11 @@ const input = document.querySelector('#favchap');
 const button = document.querySelector('button');
 const list = document.querySelector('#list');
 
+let chaptersArray = getChapterList() || [];
+chaptersArray.forEach(chapter => {
+    displayList(chapter);
+});
+
 button.addEventListener('click', () => {
     if (input.value != '') {
         displayList(input.value);
@@ -9,15 +14,7 @@ button.addEventListener('click', () => {
         setChapterList();
         input.value = '';
         input.focus()
-    } else { 
-        input.focus();
     }
-
-});
-
-let chaptersArray = getChapterList() || [];
-chaptersArray.forEach(chapter => {
-    displayList(chapter);
 });
 
 function displayList(item) {
@@ -33,8 +30,8 @@ function displayList(item) {
         deleteChapter(item);
         input.focus();
     });
-        input.value = '';
-        input.focus();
+    input.value = '';
+    input.focus();
 }
 
 function setChapterList() {
