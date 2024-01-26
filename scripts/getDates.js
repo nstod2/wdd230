@@ -32,3 +32,17 @@ modeButton.addEventListener('click', () => {
         modeButton.textContent = "☾";
     }
 });
+
+const visitDisplay = document.querySelector('.visits');
+
+let numVisits = Number(localStorage.getItem('numVisits-ns')) || 0;
+
+if (numVisits !== 0) {
+    visitDisplay.textContent = numVisits;
+} else {
+    visitDisplay.textContent = '1st visit';
+}
+
+numVisits++;
+
+localStorage.setItem('numVisits-ns', numVisits);

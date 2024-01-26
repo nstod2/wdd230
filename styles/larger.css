@@ -1,4 +1,22 @@
 @media (min-width: 640px) {
+    .hero {
+        width: 100%;
+        position: relative;
+    }
+
+    .hero img {
+        width: 100%;
+        height: auto;
+        border: 2px solid rgb(79, 132, 158);
+    }
+
+    .hero span {
+        position: absolute;
+        top: 90px;
+        right: 100px;
+        font-size: 30px;
+    }
+
     #parent {
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -28,6 +46,11 @@
     main {
         max-width: 800px;
         margin: 0 auto;
+    }
+
+    iframe {
+        height: 400px;
+        width: 100%;
     }
 
     footer {

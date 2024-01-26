@@ -62,6 +62,25 @@ nav .active {
     font-weight: 400;
 }
 
+.hero {
+    width: 100%;
+    position: relative;
+
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero span {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    background-color: rgb(255, 255, 255, 0.25);
+    font-size: 16px;
+}
+
 #mode {
     position: absolute;
     top: 15px;
@@ -141,6 +160,13 @@ h1 {
     text-align: center;
     padding: 1rem 0;
 }
+
+iframe {
+    height: 300px;
+    width: 100%;
+    align-items: center;
+}
+
 footer {
     background-color: rgb(134, 204, 240);
     max-width: 900px;
