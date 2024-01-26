@@ -161,6 +161,10 @@ h1 {
     padding: 1rem 0;
 }
 
+.visits {
+    font-size: 20px;
+}
+
 iframe {
     height: 300px;
     width: 100%;
