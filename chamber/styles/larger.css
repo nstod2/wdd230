@@ -55,3 +55,43 @@
         margin: 0 auto;
     }
 
+    footer {
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: #FFB703;
+        padding: 15px;
+    }
+
+    .information {
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        column-gap: 5px;
+        justify-content: center;
+    }
+
+    .footlogo {
+        position: relative;
+    }
+
+    .footlogo img {
+        position: absolute;
+        top: -20px;
+        right: 15px;
+    }
+
+    .address {
+        padding-top: 15px;
+    }
+
+    .contact {
+        padding-top: 25px;
+    }
+
+    .bottom {
+        text-align: center;
+        padding: 15px;
+    }
+
+
+
+}
