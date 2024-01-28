@@ -39,6 +39,7 @@
 
     .active {
         text-decoration: underline;
+        color: #FFB703;
     }
 
     #menu {
