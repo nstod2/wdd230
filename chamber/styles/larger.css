@@ -1,0 +1,57 @@
+@media (min-width: 640px) {
+    header {
+        max-width: 1200px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+        margin: 25px;
+        border: 5px solid #219EBC;
+    }
+
+    span {
+        font-size: 30px;
+    }
+
+    .joinus {
+        position: absolute;
+        top: 150px;
+        right: 40%;
+        font-size: 36px;
+    }
+
+    nav {
+        max-width: 1200px;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav a {
+        display: block;
+        color: #FFB703;
+        padding: 15px;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #parent1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+        margin: 0 auto;
+        
+    }
+
+    #parent2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        margin: 0 auto;
+    }
+

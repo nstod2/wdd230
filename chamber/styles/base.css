@@ -15,16 +15,16 @@ header {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    max-width: 850px;
+    max-width: 800px;
     margin: 0 auto;
     position: relative;
 }
 
 img {
-    height: 100px;
-    width: 100px;
-    margin: 25px;
-    border: 5px solid #219EBC;
+    height: 60px;
+    width: 60px;
+    margin: 20px;
+    border: 3px solid #219EBC;
 }
 
 span {
@@ -32,7 +32,7 @@ span {
     padding: 0px;
     font-family: 'Merriweather', serif;
     font-weight: 400;
-    font-size: 32px;
+    font-size: 16px;
     font-style: normal;
         
 }
@@ -43,27 +43,167 @@ span {
     justify-content: center;
     background-color: #FB8500;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     margin: 25px;
-    border: 5px solid #8ECAE6;
+    border: 3px solid #8ECAE6;
 
 }
 
 nav {
     background-color: #023047;
-    max-width: 850px;
     margin: 0 auto;
     padding: 30px;
+    max-width: 1200px;
 }
 
 nav ul {
-    display: flex;
-    justify-content: space-around;
+    list-style-type: none;
 }
 
 nav a {
-    color: #FFB703;
-    padding: 30px;
+    display: none;
 }
 
+nav a:hover {
+    background-color: #8ECAE6;
+    color: #023047;
+}
+
+#menu {
+    font-size: 1.0rem;
+    border: 1px solid #FFB703;
+    padding: 5px;
+    margin: 10px;
+    background-color: #023047;
+    color: #FFB703;
+}
+
+#menu::before {
+    content: '\2630';
+}
+
+#menu.open::before {
+    content: '❌';
+}
+
+.navigation.open a {
+    display: block;
+    text-align: left;
+    color: #FFB703;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    border: 2px solid #219EBC;
+    margin: 0 auto;
+}
+
+.joinus {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    font-size: 16px;
+    color: #023047;
+    background-color: rgb(255, 255, 255, .25);
+    border: 1px solid #023047;
+    padding: 15px;
+    box-shadow: 2px 2px 5px #023047 ;
+}
+
+#parent1 {
+    margin: 1rem;
+    max-width: 1200px;
+}
+
+.eventcard {
+    border: 1px solid #219EBC;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    background-color: white;
+    color: #023047;
+}
+
+.eventcard h2 {
+    background-color: #219EBC;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-align: left;
+    padding: .75rem;
+}
+
+.eventcard h3 {
+    padding: .75rem;
+}
+
+.eventcard p {
+    text-align: left;
+    padding-left: .75rem;
+    padding-bottom: 1rem;
+}
+
+.weathercard {
+    border: 1px solid #219EBC;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    background-color: white;
+    color: #023047;
+}
+
+.weathercard h2 {
+    background-color: #219EBC;
+    color: white;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    padding: .75rem;
+}
+
+.weathercard p {
+    padding: .4rem;
+    text-align: center;
+}
+
+#parent2 {
+    margin: 1rem;
+    max-width: 1200px;
+}
+
+.business1, .business2, .business3 {
+    border: 1px solid #219EBC;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+    background-color: white;
+    color: #023047;
+}
+
+.business1 h3, .business2 h3, .business3 h3 {
+    text-align: center;
+    padding: 10px;
+}
+
+.business1 p, .business2 p, .business3 p {
+    text-align: center;
+}
+
+.slogan {
+    padding-bottom: 5px;
+}
+
+.last {
+    padding-bottom: 10px;
+}
 

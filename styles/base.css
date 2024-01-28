@@ -9,6 +9,10 @@ body {
     font-weight: 200;
 }
 
+main {
+    max-width: 1200px;
+}
+
 header {
     background-color: rgb(79, 132, 158);
     display: flex;

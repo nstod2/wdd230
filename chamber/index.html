@@ -23,9 +23,11 @@
         <div id="header">
             <span>Colorado Springs</span>
             <span>Chamber of Commerce</span>
+            <p></p>
         </div>
     </header>
     <nav>
+        <button id="menu"></button>
         <ul class="navigation">
             <li class="active"><a href="/">Home</a></li>
             <li><a href="">Discover</a></li>
@@ -33,13 +35,76 @@
             <li><a href="">Join</a></li>
         </ul>
     </nav>
-    <div class="hero">
-        <picture>
-            <source srcset="images/colorado-springs-small.webp" media="(max-width: 400px)">
-            <source srcset="images/colorado-springs-medium.webp" media="(max-width: 900px)">
-            <img src="images/colorado-springs-large.webp" alt="Colorado Springs">
-        </picture>
-        <span class="joinus">Join Now</span>
-    </div>
+    <main>
+        <div class="hero">
+            <picture>
+                <source srcset="images/colorado-springs-small.webp" media="(max-width: 400px)">
+                <source srcset="images/colorado-springs-medium.webp" media="(max-width: 900px)">
+                <img src="images/colorado-springs-large.webp" alt="Colorado Springs">
+            </picture>
+            <span class="joinus">Join Now</span>
+        </div>
+        <div id="parent1">
+            <section class="eventcard">
+                <h2>Events</h2>
+                <h3>Business Networking Tips and Tricks Seminar</h3>
+                <p>Come join us and learn how to grow your business with networking knowledge, tips and opportunities this Wednesday, January 31st at 5:00 pm. </p>
+            </section>
+            <section class="weathercard">
+                <h2>Weather</h2>
+                <p>Colorado Springs, CO</p>
+                <p>Temperature</p>
+                <p>Forecast</p>
+            </section>
+        </div>
+        <div id="parent2">
+            <section class="business1">
+                <h3>Business Name</h3>
+                <p class="slogan">Slogan</p>
+                <p>Business Email</p>
+                <p>999-999-9999</p>
+                <p class="last">Website</p>
+            </section>
+            <section class="business2">
+                <h3>Business Name</h3>
+                <p class="slogan">Slogan</p>
+                <p>Business Email</p>
+                <p>999-999-9999</p>
+                <p class="last">Website</p>
+            </section>
+            <section class="business3">
+                <h3>Business Name</h3>
+                <p class="slogan">Slogan</p>
+                <p>Business Email</p>
+                <p>999-999-9999</p>
+                <p class="last">Website</p>
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="information">
+            <img src="images/cslogo.png" alt="Logo">
+            <div class="address">
+                <h3>Colorado Springs</h3>
+                <h3>Chamber of Commerce</h3>
+                <p>Street Address</p>
+                <p>City, State Zipcode</p>
+            </div>
+            <div class="contact">
+                <p>Email</p>
+                <p>Phone number</p>
+                <p>Location Map</p>
+            </div>        
+        </div>
+        <p>
+            <span id="copyright"></span> 
+            <span>| Nancy Stoddart | </span>
+            <span>WDD 230 Project | </span>
+            <span id="lastModified"></span>
+        </p>
+        
+
+    </footer>
+    <script src="scripts/chamber.js"></script>
 </body>
 </html>
