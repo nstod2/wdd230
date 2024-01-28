@@ -34,6 +34,11 @@
         display: block;
         color: #FFB703;
         padding: 15px;
+        text-decoration: none;
+    }
+
+    .action {
+        text-decoration: underline;
     }
 
     #menu {
