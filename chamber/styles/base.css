@@ -69,7 +69,9 @@ nav a:hover {
     color: #023047;
 }
 
-
+.active {
+    text-decoration: underline;
+}
 
 #menu {
     font-size: 1.0rem;
