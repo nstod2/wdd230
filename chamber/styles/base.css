@@ -108,6 +108,15 @@ nav a:hover {
     margin: 0 auto;
 }
 
+.hero h1 {
+    text-align: center;
+    color: #023047;
+    font-family: 'Merriweather', serif;
+    background-color: #FB8500;
+    padding: 15px;
+    margin: 0 auto;
+}
+
 .joinus {
     position: absolute;
     top: 25px;
@@ -121,7 +130,6 @@ nav a:hover {
 }
 
 #parent1 {
-    margin: 1rem;
     max-width: 1200px;
 }
 
