@@ -1,0 +1,61 @@
+:root {
+    --back: rgb(74, 11, 74);
+    --back2: rgb(130, 25, 130);
+    --back3: rgb(236, 174, 236);
+    --bord: 1px solid rgb(130, 25, 130);
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px solid var(--back);
+}
+
+th, td{
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.title {
+    background-color: var(--back);
+}
+
+.packages th{
+    background-color: var(--back2);
+    color: white;
+}
+
+.packages th:first-child {
+    background-color: var(--back);
+    border: 1px solid var(--back);
+}
+
+.title th {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    border: 1px solid var(--back);
+}
+
+caption {
+    caption-side: bottom;
+    color: var(--back);
+    padding: 5px;
+}
+
+td {
+    text-align: center;
+    border: 1px solid var(--back);
+}
+
+.feature {
+    color: var(--back);
+    font-weight: bold;
+    border: 1px solid var(--back);
+}
+
+tbody tr:nth-child(even) {
+    background-color: var(--back3);
+}
+
+
+
