@@ -1,0 +1,27 @@
+header {
+    margin: auto 0;
+}
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    background-color: rgb(226, 202, 249);
+}
+
+#cards p {
+    color: rgb(64, 13, 111);
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: rgb(64, 13, 111);
+}
+
+#cards h2 {
+    color: rgb(64, 13, 111);
+}
+
+#cards section {
+    background-color: rgb(193, 164, 220);
+}
+
