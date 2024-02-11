@@ -281,7 +281,6 @@ footer {
     border-radius: 10px;
     margin: 10px;
     padding: 0px; 
-    box-shadow: 0 0 15px #219EBC;
 }
 
 #attcard h2,
@@ -291,4 +290,15 @@ footer {
 #febcard h2 {
     margin: 10px;
     font-size: 18px;
+    text-align: center;
+}
+
+#attcard p,
+#visitcard p,
+#democard p,
+#peakcard p,
+#febcard p {
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
 }
