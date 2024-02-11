@@ -72,6 +72,19 @@
         padding: 15px;
     }
 
+    #discover {
+        background-color: #8ECAE6;
+        padding: 35px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    #discover h1 {
+        color: #023047;
+        text-align: center;
+
+    }
+
     .information {
         display: grid;
         grid-template-columns: 2fr 2fr 2fr;
@@ -115,7 +128,7 @@
         grid-column: 1/4;
         margin-left: 75px;
         margin-right: 75px;
-        margin-top: 40px;
+        margin-top: 20px;
         margin-bottom: 250px;
     }
 
