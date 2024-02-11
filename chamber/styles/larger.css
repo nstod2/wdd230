@@ -130,6 +130,7 @@
         margin-right: 75px;
         margin-top: 20px;
         margin-bottom: 250px;
+        box-shadow: 0 0 15px #219EBC;
     }
 
     #attcard h2 {
@@ -149,6 +150,7 @@
         margin-right: 75px;
         margin-top: 175px;
         margin-bottom: -25px;
+        box-shadow: 0 0 15px #219EBC;
     }
 
     #visitcard h2 {
@@ -166,6 +168,7 @@
         margin-left: 75px;
         margin-right: 75px;
         margin-top: 90px;
+        box-shadow: 0 0 15px #219EBC;
     }
 
     #democard h2 {
@@ -186,6 +189,7 @@
         margin-top: 45px;
         margin-bottom: -15px;
         padding-top: 35px;
+        box-shadow: 0 0 15px #219EBC;
     }
 
     #peakcard h2 {
@@ -206,6 +210,7 @@
         margin-right: 75px;
         margin-top: 85px;
         margin-bottom: 165px;
+        box-shadow: 0 0 15px #219EBC;
     }
 
     #febcard h2 {
@@ -221,8 +226,6 @@
         padding-bottom: 15px;
     }
 
-
-
     #images {
         grid-row: 1/7;
         grid-column: 4/7;
@@ -230,20 +233,24 @@
         margin-bottom: 10px;
     }
 
-    #images img {
-        width: 450px;
+    #images figure {
+        align-items: center;
+    }
+
+    #images figure img {
+        width: 75%;
         height: auto;
         margin-bottom: 0px;
         margin-top: 20px;
     }
 
-    #images img:hover {
+    #images figure img:hover {
         border: 5px solid #023047;
         border-radius: 10px;
         box-shadow: 0 0 15px #FFB703;
     }
 
-    #images figcaption {
+    #images figure figcaption {
         color: #023047;
         margin-left: 25px;
         font-weight: bold;

@@ -234,21 +234,37 @@ footer span {
     font-family: 'Rubik', sans-serif;
 }
 
+footer {
+    background-color: #FFB703;
+}
+
 .bottom {
     margin-top: 40px;
     margin-bottom: 5px;
 }
 
-#images {
+#discover {
+    font-size: 1rem;
+    background-color: #8ECAE6;
+    padding: 10px;
+    margin: 0;
+}
+
+#images  {
 
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#images img {
+#images figure img {
     width: 80%;
     height: auto;
+    align-items: center;
+}
+
+#images figure figcaption {
+    text-align: center;
 }
 
 #grid1 {
@@ -262,10 +278,9 @@ footer span {
 #peakcard,
 #febcard {
     border: 2px solid #FFB703;
-    margin: 20px;
     border-radius: 10px;
-    padding: 15px; 
-    text-align: center;
+    margin: 10px;
+    padding: px; 
     box-shadow: 0 0 15px #219EBC;
 }
 
