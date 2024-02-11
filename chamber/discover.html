@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorado Springs Chamber of Commerce</title>
+    <meta name="description" content="Nancy Stoddart's course assigment portal for WDD 230 - Web FrontEnd Development.">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Rubik:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta property="og:title" content="My Course Homepage" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://nstod2.github.io/wdd230/chamber/index.html" />
+    <meta property="og:image" content="https://media.timeout.com/images/105231037/750/422/image.jpg" />
+</head>
+
+<body>
+    <header>
+        <img src="images/cslogo.png" alt="Colorado Springs Commerce Logo">
+        <div id="header">
+            <span>Colorado Springs</span>
+            <span>Chamber of Commerce</span>
+            <p></p>
+        </div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="/chamber/index.html">Home</a></li>
+            <li class="active"><a href="">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li><a href="">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <div id="grid1">
+            <div id="attcard">
+                <h2>Colorado Springs Attractions</h2>
+                <p>Pikes Peak</p>
+                <p>Garden of the Gods</p>
+                <p>Cheyenne Mountain Zoo</p>
+                <p>Glen Eyrie Castle</p>
+                <p>US Olympic & Paralympic Training Center</p>
+                <p>The Broadmoor Seven Falls</p>
+            </div>
+            <div id="visitcard">
+                <h2>Visits</h2>
+                <p id="visits"></p>
+            </div>
+            <div id="democard">
+                <h2>Colorado Springs</h2>
+                <p>Population of 475,282</p>
+                <p>Median Age of 34.9</p>
+                <p>50.12% Male</p>
+                <p>49.88% Female</p>
+            </div>
+            <div id="peakcard">
+                <h2>Colorado Springs</h2>
+                <h2>Home of Pikes Peak</h2>
+                <p>Stands 14,115 feet tall</p>
+                <p>Summit visitor center</p>
+                <p>19 miles of mountain terrain</p>
+                <p>Reserve your spot now</p>
+            </div>
+            <div id="febcard">
+                <h2>February Events</h2>
+                <p>Feb 2 - Chamber Board Meeting 7pm</p>
+                <p>Feb 9 - Conflict Resolution Seminar 6-9 pm</p>
+                <p>Feb 14 - Member Mix & Mingle 4-5 pm</p>
+                <p>Feb 19 - President's Day</p>
+                <p>Feb 21 - Networking Tips & Tricks 7 pm</p>
+                <p>Feb 24 - Annual Gala</p>
+            </div>
+            <div id="images">
+                <img  src="images/pikespeak.webp" alt="Pikes Peak" loading="lazy">
+                <figcaption>Pikes Peak</figcaption>
+                <img  src="images/garden.webp" alt="Garden of the Gods" loading="lazy">
+                <figcaption>Garden of the Gods</figcaption>
+                <img  src="images/zoo.webp" alt="Cheyenne Mountain Zoo" loading="lazy">
+                <figcaption>Cheyenne Mountain Zoo</figcaption>
+                <img  src="images/castle.webp" alt="Glen Eyrie Castle" loading="lazy">
+                <figcaption>Glen Eyrie Castle</figcaption>
+                <img  src="images/olympic.webp" alt="US Olympic & Paralympic Training Center" loading="lazy">
+                <figcaption>US Olympic & Paralympic Training Center</figcaption>
+                <img  src="images/sevenfalls.webp" alt="Broadmoor Seven Falls" loading="lazy">
+                <figcaption>Broadmoor Seven Falls</figcaption>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="information">
+            <div class="footlogo">
+                <img src="images/cslogo.png" alt="Logo">
+            </div>
+            <div class="address">
+                <h3>Colorado Springs</h3>
+                <h3>Chamber of Commerce</h3>
+                <p>Street Address</p>
+                <p>City, State Zipcode</p>
+            </div>
+            <div class="contact">
+                <p>Email</p>
+                <p>Phone number</p>
+                <p>Location Map</p>
+            </div>
+        </div>
+        <p class="bottom">
+            <span id="copyright"></span>
+            <span> CS Chamber </span>
+            <span>| Nancy Stoddart | </span>
+            <span>WDD 230 Project | </span>
+            <span id="lastModified"></span>
+        </p>
+
+
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+
+</html>

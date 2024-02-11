@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+main {
+    margin: 0 auto;
+}
+
 body {
     font-family: 'Rubik', sans-serif;
     font-weight: 300;
@@ -34,7 +38,7 @@ span {
     font-weight: 400;
     font-size: 16px;
     font-style: normal;
-        
+
 }
 
 #header {
@@ -130,7 +134,7 @@ nav a:hover {
     background-color: rgb(255, 255, 255, .25);
     border: 1px solid #023047;
     padding: 15px;
-    box-shadow: 2px 2px 5px #023047 ;
+    box-shadow: 2px 2px 5px #023047;
 }
 
 #parent1 {
@@ -193,7 +197,9 @@ nav a:hover {
     max-width: 1200px;
 }
 
-.business1, .business2, .business3 {
+.business1,
+.business2,
+.business3 {
     border: 1px solid #219EBC;
     border-radius: 10px;
     overflow: hidden;
@@ -202,12 +208,16 @@ nav a:hover {
     color: #023047;
 }
 
-.business1 h3, .business2 h3, .business3 h3 {
+.business1 h3,
+.business2 h3,
+.business3 h3 {
     text-align: center;
     padding: 10px;
 }
 
-.business1 p, .business2 p, .business3 p {
+.business1 p,
+.business2 p,
+.business3 p {
     text-align: center;
 }
 
@@ -221,4 +231,47 @@ nav a:hover {
 
 footer span {
     font-size: 16px;
+}
+
+.bottom {
+    margin-top: 20px;
+}
+
+#images {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#images img {
+    width: 80%;
+    height: auto;
+}
+
+#grid1 {
+    background-color: #8ECAE6;
+    margin: 0 auto;
+}
+
+#attcard,
+#visitcard,
+#democard,
+#peakcard,
+#febcard {
+    border: 2px solid #FFB703;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 15px; 
+    text-align: center;
+    box-shadow: 0 0 15px #219EBC;
+}
+
+#attcard h2,
+#visitcard h2,
+#democard h2,
+#peakcard h2,
+#febcard h2 {
+    margin: 10px;
+    font-size: 18px;
 }

@@ -3,6 +3,10 @@
         max-width: 1200px;
     }
 
+    main {
+        max-width: 1200px;
+    }
+
     img {
         width: 100px;
         height: 100px;
@@ -51,7 +55,7 @@
         grid-template-columns: 2fr 1fr;
         column-gap: 10px;
         margin: 0 auto;
-        
+
     }
 
     #parent2 {
@@ -98,6 +102,118 @@
         padding: 15px;
     }
 
+    #grid1 {
+        background-color: #8ECAE6;
+        display: grid;
+        grid-template-columns: repeat(6, 200px);
+        grid-template-rows: repeat(6, 360px);
+        padding: 20px;
+    }
+
+    #attcard {
+        grid-row: 1/3;
+        grid-column: 1/4;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 40px;
+        margin-bottom: 250px;
+    }
+
+    #attcard h2 {
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    #attcard p {
+        font-size: 20px;
+        padding: 15px;
+    }
+
+    #visitcard {
+        grid-row: 2/3;
+        grid-column: 1/4;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 175px;
+        margin-bottom: -25px;
+    }
+
+    #visitcard h2 {
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    #democard {
+        grid-row: 3/4;
+        grid-column: 1/4;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 90px;
+    }
+
+    #democard h2 {
+        font-size: 26px;
+        padding: 10px;
+    }
+
+    #democard p {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    #peakcard {
+        grid-row: 4/5;
+        grid-column: 1/4;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 45px;
+        margin-bottom: -15px;
+        padding-top: 35px;
+    }
+
+    #peakcard h2 {
+        font-size: 26px;
+        margin-top: 0px;
+        margin-bottom: 5px;
+    }
+
+    #peakcard p {
+        font-size: 20px;
+        padding: 13px;
+    }
+
+    #febcard {
+        grid-row: 5/7;
+        grid-column: 1/4;
+        margin-left: 75px;
+        margin-right: 75px;
+        margin-top: 45px;
+        margin-bottom: 100px;
+    }
+
+    #febcard h2 {
+        font-size: 26px;
+        
+    }
 
 
+
+    #images {
+        grid-row: 1/7;
+        grid-column: 4/7;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    #images img {
+        width: 450px;
+        height: auto;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    #images figcaption {
+        color: #023047;
+        margin-left: 25px;
+    }
 }
