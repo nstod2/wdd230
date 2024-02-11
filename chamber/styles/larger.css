@@ -14,6 +14,12 @@
         border: 5px solid #219EBC;
     }
 
+    img:hover {
+        border: 5px solid #023047;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #FFB703;
+    }
+
     span {
         font-size: 30px;
     }
@@ -227,5 +233,6 @@
     #images figcaption {
         color: #023047;
         margin-left: 25px;
+        font-weight: bold;
     }
 }

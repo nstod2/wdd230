@@ -23,7 +23,7 @@ const msToDays = 84600000;
 let lastVisit = Number(localStorage.getItem('lastVisit-ms')) || 0;
 
 if (lastVisit !== 0) {
-    let todayVisit = new Date();
+    let todayVisit = Date.now();
     let days = (lastVisit - todayVisit) / msToDays;
     if (days < 1) {
         daysDisplay.textContent = 'Back so soon!  Awesome!'
@@ -32,7 +32,7 @@ if (lastVisit !== 0) {
     }
     localStorage.setItem('lastVisit-ms', todayVisit);
 } else {
-    let todayVisit = new Date();
+    let todayVisit = Date.now();
     daysDisplay.textContent = "Welcome! Let us know if you have any questions."
     localStorage.setItem('lastVisit-ms', todayVisit);
 }
