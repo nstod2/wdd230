@@ -143,6 +143,10 @@
         padding: 10px;
     }
 
+    #days {
+        font-size: 20px;
+    }
+
     #democard {
         grid-row: 3/4;
         grid-column: 1/4;
@@ -187,13 +191,21 @@
         grid-column: 1/4;
         margin-left: 75px;
         margin-right: 75px;
-        margin-top: 45px;
-        margin-bottom: 100px;
+        margin-top: 85px;
+        margin-bottom: 165px;
     }
 
     #febcard h2 {
         font-size: 26px;
-        
+        margin-top: 25px;
+        margin-bottom: 20px;
+
+    }
+
+    #febcard p {
+        font-size: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
     }
 
 
