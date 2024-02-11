@@ -14,12 +14,6 @@
         border: 5px solid #219EBC;
     }
 
-    img:hover {
-        border: 5px solid #023047;
-        border-radius: 10px;
-        box-shadow: 0 0 15px #FFB703;
-    }
-
     span {
         font-size: 30px;
     }
@@ -92,7 +86,7 @@
     .footlogo img {
         position: absolute;
         top: -20px;
-        right: 15px;
+        left: 100px;
     }
 
     .address {
@@ -228,6 +222,12 @@
         height: auto;
         margin-bottom: 0px;
         margin-top: 20px;
+    }
+
+    #images img:hover {
+        border: 5px solid #023047;
+        border-radius: 10px;
+        box-shadow: 0 0 15px #FFB703;
     }
 
     #images figcaption {
