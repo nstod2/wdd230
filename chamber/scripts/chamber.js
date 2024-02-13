@@ -24,7 +24,7 @@ let lastVisit = Number(localStorage.getItem('lastVisit-ms')) || 0;
 
 if (lastVisit !== 0) {
     let todayVisit = Date.now();
-    let days = (lastVisit - todayVisit) / msToDays;
+    let days = (todayVisit - lastVisit) / msToDays;
     if (days < 1) {
         daysDisplay.textContent = 'Back so soon!  Awesome!'
     } else {
