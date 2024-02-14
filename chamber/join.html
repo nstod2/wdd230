@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorado Springs Chamber of Commerce Join Page</title>
+    <meta name="description" content="Nancy Stoddart's course assigment portal for WDD 230 - Web FrontEnd Development.">
+    <meta name="author" content="Nancy Stoddart">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Rubik:wght@300;400&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <meta property="og:title" content="My Chamber Join Page" />
+    <meta property="og:type" content="Website" />
+    <meta property="og:url" content="https://nstod2.github.io/wdd230/chamber/join.html" />
+    <meta property="og:image" content="https://media.timeout.com/images/105231037/750/422/image.jpg" />
+</head>
+
+<body>
+    <header>
+        <img src="images/cslogo.png" alt="Colorado Springs Commerce Logo">
+        <div id="header">
+            <span>Colorado Springs</span>
+            <span>Chamber of Commerce</span>
+            <p></p>
+        </div>
+    </header>
+    <nav>
+        <button id="menu"></button>
+        <ul class="navigation">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li><a href="">Directory</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1 id="formheading">Colorado Springs Chamber Membership Levels</h1>
+        <div id="formbox">
+            <form action="get" action="thankyou.html">
+                <fieldset>
+                    <legend>Chamber Application</legend>
+                    <label class="above">First Name* <input type="text" name="fname" id="fname" required
+                            placeholder="ie. John"></label>
+                    <label class="above">Last Name* <input type="text" name="lname" id="lname" required
+                            placeholder="ie. Smith"></label>
+                    <label class="above">Position <input type="text" name="title" id="title"
+                            pattern="[A-Za-z0-9\s-]{7,}" placeholder="Title or position within organization"></label>
+                    <label class="above">Email* <input type="email" name="email" id="email" required
+                            placeholder="ie. johnssmith@byui.edu"></label>
+                    <label class="above">Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234"></label>
+                    <label class="above">Organization Name* <input type="text" name="orgname" id="orgname" required></label>
+                    <div>Membership Level</div>
+                    <label><input type="radio" name="membership" value="nonprofit">NP Membership</label>
+                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
+                    <input type="hidden" name="timestamp" id="timestamp">
+                </fieldset>
+            </form>
+
+
+
+        </div>
+
+    </main>
+    <footer>
+        <div class="information">
+            <div class="footlogo">
+                <img src="images/cslogo.png" alt="Logo">
+            </div>
+            <div class="address">
+                <h3>Colorado Springs</h3>
+                <h3>Chamber of Commerce</h3>
+                <p>Street Address</p>
+                <p>City, State Zipcode</p>
+            </div>
+            <div class="contact">
+                <p>Email</p>
+                <p>Phone number</p>
+                <p>Location Map</p>
+            </div>
+        </div>
+        <p class="bottom">
+            <span id="copyright"></span>
+            <span> CS Chamber </span>
+            <span>| Nancy Stoddart | </span>
+            <span>WDD 230 Project | </span>
+            <span id="lastModified"></span>
+        </p>
+    </footer>
+    <script src="scripts/chamber.js"></script>
+</body>
+
+</html>

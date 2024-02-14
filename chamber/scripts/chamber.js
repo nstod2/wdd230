@@ -37,3 +37,6 @@ if (lastVisit !== 0) {
     localStorage.setItem('lastVisit-ms', todayVisit);
 }
 
+const formTime = document.querySelector('#timestamp');
+formTime.value = new Date();
+
