@@ -26,17 +26,17 @@ if (lastVisit !== 0) {
     let todayVisit = Date.now();
     let days = (todayVisit - lastVisit) / msToDays;
     if (days < 1) {
-        daysDisplay.textContent = 'Back so soon!  Awesome!'
+        daysDisplay.textContent = 'Back so soon!  Awesome!';
     } else {
-        daysDisplay.textContent = `You last visited ${days.toFixed(0)} days ago.`
+        daysDisplay.textContent = `You last visited ${days.toFixed(0)} days ago.`;
     }
     localStorage.setItem('lastVisit-ms', todayVisit);
 } else {
     let todayVisit = Date.now();
-    daysDisplay.textContent = "Welcome! Let us know if you have any questions."
+    daysDisplay.textContent = "Welcome! Let us know if you have any questions.";
     localStorage.setItem('lastVisit-ms', todayVisit);
 }
 
 const formTime = document.querySelector('#timestamp');
-formTime.value = new Date();
+formTime.value = `${dateTime}`;
 
