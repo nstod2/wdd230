@@ -6,6 +6,7 @@
 
 main {
     margin: 0 auto;
+    background-color: #8ECAE6;
 }
 
 body {
@@ -260,16 +261,16 @@ footer {
 .pics img {
     width: 80%;
     height: auto;
-    
+
 
 }
 
 .pics {
     position: relative;
-    
+
 }
 
-.pics span{
+.pics span {
     position: absolute;
     bottom: 15px;
     left: 15px;
@@ -290,7 +291,7 @@ footer {
     border: 2px solid #FFB703;
     border-radius: 10px;
     margin: 10px;
-    padding: 0px; 
+    padding: 0px;
 }
 
 #attcard h2,
@@ -311,4 +312,85 @@ footer {
     margin: 10px;
     font-size: 16px;
     text-align: center;
+}
+
+#formheading {
+    background-color: #b4e7ff;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+#formbox {
+    display: block;
+    background-color: #b4e7ff;
+}
+
+form fieldset {
+    display: block;
+    margin: 10px;
+    margin-bottom: 50px;
+    border: 2px solid #023047;
+    border-radius: 10px;
+    padding: 25px;
+    background-color: #b4e7ff;
+}
+
+form legend {
+    color: #023047;
+    margin: 0 15px;
+    padding: 0 5px;
+}
+
+form label.above,
+form div {
+    display: block;
+    padding-top: 15px;
+    font-size: 14px;
+    color: #105b6e;
+}
+
+form label.above input {
+    display: block;
+    font-size: 16px;
+    border: 1px solid #219EBC;
+    border-radius: 4px;
+    padding: 12px;
+    color: #023047;
+    width: 100%;
+    max-width: 320px;
+    background-color: #e0f5ff;
+}
+
+form label.left {
+    display: block;
+    padding: 12px 0;
+    color: #023047;
+}
+
+form input.submitBtn {
+    border: none;
+    background-color: #105b6e;
+    color: white;
+    border-radius: 16px;
+    padding: 12px 24px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.member {
+    padding-top: 50px;
+}
+
+.cost {
+    font-weight: bold;
+}
+
+.perks {
+    margin-left: 25px;
+    margin-top: 10px;
+}
+
+.perks li {
+    padding: 2px;
 }

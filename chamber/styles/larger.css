@@ -242,7 +242,7 @@
     .pics img {
         width: 75%;
         height: auto;
-        
+
     }
 
     .pics img:hover {
@@ -261,4 +261,27 @@
         margin-bottom: 5px;
         font-weight: bold;
     }
+
+    #formbox {
+        display: grid;
+        grid-template-columns: 500px 700px;
+    }
+
+    form fieldset {
+        grid-column: 1/2;
+        margin-top: 25px;
+        margin-left: 50px;
+    }
+
+    #levels {
+        grid-column: 2/3;
+        margin-left: 150px;
+        margin-top: 15px;
+    }
+
+    .member {
+        padding-top: 40px;
+    }
+
+    
 }

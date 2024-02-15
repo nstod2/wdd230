@@ -57,13 +57,49 @@
                     <label class="above">Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234"></label>
                     <label class="above">Organization Name* <input type="text" name="orgname" id="orgname" required></label>
                     <div>Membership Level</div>
-                    <label><input type="radio" name="membership" value="nonprofit">NP Membership</label>
-                    <label><input type="radio" name="membership" value="bronze">Bronze Membership</label>
-                    <label><input type="radio" name="membership" value="silver">Silver Membership</label>
-                    <label><input type="radio" name="membership" value="gold">Gold Membership</label>
-                    <label><input type="hidden" name="timestamp" id="timestamp" value=""></label>
+                    <label class="left"><input type="radio" name="membership" value="nonprofit">NP Membership</label>
+                    <label class="left"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
+                    <label class="left"><input type="radio" name="membership" value="silver">Silver Membership</label>
+                    <label class="left"><input type="radio" name="membership" value="gold">Gold Membership</label>
+                    <input type="hidden" name="timestamp" id="timestamp" value="">
+                    <input type="submit" value="Save Application" class="submitBtn">
                 </fieldset>
             </form>
+            <div id="levels">
+                <h2 class="member">Nonprofit Membership</h2>
+                <p class="cost">Price: No cost</p>
+                <ul class="perks">
+                    <li>Place in our citywide business directory</li>
+                    <li>Access to 2 yearly networking events</li>
+                    <li>Access to 2 yearly business development events</li>
+                </ul>
+                <h2 class="member">Bronze Membership</h2>
+                <p class="cost">Price: $250</p>
+                <ul class="perks">
+                    <li>Place in our citywide business directory</li>
+                    <li>Half page advertisement in business directory</li>
+                    <li>Access to 6 yearly networking and business development events</li>
+                    <li>Discounted yearly gala tickets</li>
+                </ul>
+                <h2 class="member">Silver Membership</h2>
+                <p class="cost">Price: $500</p>
+                <ul class="perks">
+                    <li>Place in our citywide business directory</li>
+                    <li>Half page advertisement in business directory</li>
+                    <li>Access to 9 yearly networking and business development events</li>
+                    <li>Discounted yearly gala tickets</li>
+                    <li>Advertising through one business spotlight</li>
+                </ul>
+                <h2 class="member">Gold Membership</h2>
+                <p class="cost">Price: $1000</p>
+                <ul class="perks">
+                    <li>Place in our citywide business directory</li>
+                    <li>Full page advertisement in business directory</li>
+                    <li>Unlimited access to yearly networking and business development events</li>
+                    <li>Yearly gala tickets</li>
+                    <li>Two business spotlights on the website</li>
+                </ul>
+            </div>
         </div>
 
     </main>
@@ -93,6 +129,7 @@
         </p>
     </footer>
     <script src="scripts/chamber.js"></script>
+    <script src="scripts/join.js"></script>
 </body>
 
 </html>
