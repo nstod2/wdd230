@@ -319,6 +319,7 @@ footer {
     text-align: center;
     padding-top: 20px;
     padding-bottom: 15px;
+    margin: 0px;
 }
 
 #formbox {
@@ -364,8 +365,13 @@ form label.above input {
 
 form label.left {
     display: block;
-    padding: 12px 0;
+    padding: 12px 0px;
+    margin: 0 5px;
     color: #023047;
+}
+
+form label.left input {
+    margin: 0px 10px;
 }
 
 form input.submitBtn {
@@ -393,4 +399,9 @@ form input.submitBtn {
 
 .perks li {
     padding: 2px;
+}
+
+#thankyou {
+    padding: 35px;
+    text-align: center;
 }
