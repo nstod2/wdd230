@@ -46,3 +46,35 @@ if (numVisits !== 0) {
 numVisits++;
 
 localStorage.setItem('numVisits-ns', numVisits);
+
+const currentTemp = document.querySelector('#temp');
+const weatherIcon = document.querySelector('#wicon');
+const captionDesc = document.querySelector('#desc');
+
+const url = 'https://api.openweathermap.org/data/2.5/weather?lat=38.84&lon=-104.82&appid=fc750def0ad8258e60aec92a95a39b23&units=imperial';
+
+async function apiFetch() {
+    try {
+        const response = await fetch(url);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            displayResults(data);
+        } else {
+            throw Error(await response.text());
+        }
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+function displayResults(data) {
+    currentTemp.innerHTML = `${data.main.temp}&deg;F`;
+    const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    let description = data.weather[0].main;
+    weatherIcon.setAttribute('src', iconsrc);
+    weatherIcon.setAttribute('alt', description);
+    captionDesc.textContent = `${description}`;
+}
+
+apiFetch();
