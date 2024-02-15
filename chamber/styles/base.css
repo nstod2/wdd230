@@ -363,6 +363,15 @@ form label.above input {
     background-color: #e0f5ff;
 }
 
+#desc {
+    background-color: #e0f5ff;
+    font-size: 16px;
+    padding: 12px;
+    color: #023047;
+    border: 1px solid #219EBC;
+    border-radius: 4px; 
+}
+
 form label.left {
     display: block;
     padding: 12px 0px;

@@ -43,7 +43,7 @@
     <main>
         <h1 id="formheading">Colorado Springs Chamber Membership Levels</h1>
         <div id="formbox">
-            <form action="get" action="thankyou.html">
+            <form method="get" action="thankyou.html">
                 <fieldset>
                     <legend>Chamber Application</legend>
                     <label class="above">First Name* <input type="text" name="fname" id="fname" required
@@ -54,8 +54,12 @@
                             pattern="[A-Za-z0-9\s-]{7,}" placeholder="Title or position within organization"></label>
                     <label class="above">Email* <input type="email" name="email" id="email" required
                             placeholder="ie. johnssmith@byui.edu"></label>
-                    <label class="above">Phone* <input type="tel" name="phone" id="phone" placeholder="1235551234"></label>
-                    <label class="above">Organization Name* <input type="text" name="orgname" id="orgname" required></label>
+                    <label class="above">Phone* <input type="tel" name="phone" id="phone"
+                            placeholder="1235551234"></label>
+                    <label class="above">Organization Name* <input type="text" name="orgname" id="orgname"
+                            required></label>
+                    <label class="above">Organization Description </label>
+                    <textarea name="desc" id="desc" rows="4" cols="50"></textarea>
                     <div>Membership Level</div>
                     <label class="left"><input type="radio" name="membership" value="nonprofit">Nonprofit Membership</label>
                     <label class="left"><input type="radio" name="membership" value="bronze">Bronze Membership</label>
