@@ -29,7 +29,7 @@ img {
     height: 60px;
     width: 60px;
     margin: 20px;
-    border: 3px solid #219EBC;
+    border: 3px solid #b4e7ff;
 }
 
 span {
@@ -46,12 +46,11 @@ span {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: #FB8500;
+    background-color: #fd9f33;
     text-align: center;
     padding: 15px;
     margin: 25px;
-    border: 3px solid #8ECAE6;
-
+    border: 3px solid #219EBC;
 }
 
 nav {
@@ -115,15 +114,25 @@ nav a:hover {
     height: auto;
     border: 2px solid #219EBC;
     margin: 0 auto;
+    padding: 0px;
 }
 
-.hero h1 {
+h1 {
     text-align: center;
     color: #023047;
     font-family: 'Merriweather', serif;
-    background-color: #FB8500;
+    font-size: 20px;
+    background-color: #b4e7ff;
     padding: 15px;
     margin: 0 auto;
+    text-align: center;
+    border: 1px solid #105b6e;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #428a9c;
+}
+
+.page-titles {
+    padding: 25px;
 }
 
 .joinus {
@@ -140,11 +149,13 @@ nav a:hover {
 
 #parent1 {
     max-width: 1200px;
+    padding: 10px;
 }
 
 .eventcard {
-    border: 1px solid #219EBC;
+    border: 1px solid #023047;
     border-radius: 10px;
+    box-shadow: 0 0 20px #428a9c;
     overflow: hidden;
     margin: 1rem 0;
     background-color: white;
@@ -171,8 +182,9 @@ nav a:hover {
 }
 
 .weathercard {
-    border: 1px solid #219EBC;
+    border: 1px solid #023047;
     border-radius: 10px;
+    box-shadow: 0 0 20px #428a9c;
     overflow: hidden;
     margin: 1rem 0;
     background-color: white;
@@ -201,8 +213,9 @@ nav a:hover {
 .business1,
 .business2,
 .business3 {
-    border: 1px solid #219EBC;
+    border: 1px solid #023047;
     border-radius: 10px;
+    box-shadow: 0 0 20px #428a9c;
     overflow: hidden;
     margin: 1rem 0;
     background-color: white;
@@ -236,7 +249,7 @@ footer span {
 }
 
 footer {
-    background-color: #FFB703;
+    background-color: #FB8500;
 }
 
 .bottom {
@@ -244,15 +257,7 @@ footer {
     margin-bottom: 5px;
 }
 
-#discover {
-    font-size: 1rem;
-    background-color: #8ECAE6;
-    padding: 10px;
-    margin: 0;
-}
-
 #images {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -369,7 +374,7 @@ form label.above input {
     padding: 12px;
     color: #023047;
     border: 1px solid #219EBC;
-    border-radius: 4px; 
+    border-radius: 4px;
 }
 
 form label.left {
