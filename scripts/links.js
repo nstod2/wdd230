@@ -14,7 +14,10 @@ const displayLinks = (weeks) => {
         let numLinks = 1;
         let listActivities = document.createElement('li');
         let weekNum = document.createElement('span');
-        weekNum.textContent = `${week}`;
+        weekNum.textContent = `${week.week}:`;
+        weekNum.style.fontSize = '16px';
+        weekNum.style.padding = '5px';
+        //listActivities.textContent = `${weekNum}:`;
         listActivities.appendChild(weekNum);
         week.links.forEach((link) => {
             let activity = document.createElement('a');
@@ -35,4 +38,4 @@ const displayLinks = (weeks) => {
     });
 }
 
-getLinks();
+getLinks(linksURL);
