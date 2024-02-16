@@ -69,6 +69,16 @@
             "image-name": "cupcake.webp",
             "membership": "Silver",
             "slogan": "Because Our Cupcakes are the Cure!"
+        },
+        {
+            "name": "Poor Richard's Bookstore",
+            "street": "320 North Tejon Street",
+            "zipcode": "80903",
+            "phone": "(719) 578-5549",
+            "website": "https://poorrichardsbookstore.com/",
+            "image-name": "bookstore.webp",
+            "membership": "Silver",
+            "slogan": "It's about the Experience!"
         }
     ]
 }
