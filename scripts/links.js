@@ -17,7 +17,6 @@ const displayLinks = (weeks) => {
         weekNum.textContent = `${week.week}:`;
         weekNum.style.fontSize = '16px';
         weekNum.style.padding = '5px';
-        //listActivities.textContent = `${weekNum}:`;
         listActivities.appendChild(weekNum);
         week.links.forEach((link) => {
             let activity = document.createElement('a');
