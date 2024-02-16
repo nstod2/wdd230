@@ -38,7 +38,7 @@
             "website": "https://heartshakestudios.com/",
             "image-name": "heartshake.webp",
             "membership": "Bronze",
-            "slogan": "We aim to support local brands"
+            "slogan": "We aim to support local brands!"
         },
         {
             "name": "My Floral Shop",
@@ -48,7 +48,7 @@
             "website": "https://www.myfloralshop.com/",
             "image-name": "floral.webp",
             "membership": "Gold",
-            "slogan": "Experience the joy of beautiful, handcrafted arrangements."
+            "slogan": "Experience the joy of beautiful, handcrafted arrangements!"
         },
         {
             "name": "Pikes Peak Lemonade",
@@ -58,7 +58,7 @@
             "website": "https://www.pikespeaklemonade.com/",
             "image-name": "pplemonade.webp",
             "membership": "Silver",
-            "slogan": "Happy people drink lemonade."
+            "slogan": "Happy people drink lemonade!"
         },
         {
             "name": "The Cupcake Doctor",
