@@ -269,12 +269,34 @@ h1 {
     margin: 5px auto;
 }
 
+.grid section h3 {
+    display: none;
+}
+
 .grid section p {
     padding: 2px;
     margin: 0 20px;
 }
 
-.busname {
+.list {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 15px;
+}
+
+.list section {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+.list section:nth-child(even) {
+    background-color: #b4e7ff;
+}
+
+.list section img {
     display: none;
 }
 
