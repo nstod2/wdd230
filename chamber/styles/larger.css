@@ -279,5 +279,8 @@
         padding-top: 40px;
     }
 
-
+    .grid section img {
+        height: 90px;
+        width: auto;
+    }
 }

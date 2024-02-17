@@ -243,6 +243,41 @@ h1 {
     padding-bottom: 10px;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(295px, 1fr));
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 15px;
+    padding-bottom: 50px;
+}
+
+.grid section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: .5px solid #105b6e;
+    border-radius: 10px;
+    padding: 10px;
+    padding-bottom: 20px;
+    background-color: #b4e7ff;
+}
+
+.grid section img {
+    width: auto;
+    height: 60px;
+    margin: 5px auto;
+}
+
+.grid section p {
+    padding: 2px;
+    margin: 0 20px;
+}
+
+.busname {
+    display: none;
+}
+
 footer span {
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
@@ -270,6 +305,8 @@ footer {
 
 .pics {
     position: relative;
+    margin-top: 20px;
+    margin-bottom: 45px;
 }
 
 .pics span {

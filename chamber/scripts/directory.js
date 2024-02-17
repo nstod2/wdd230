@@ -15,13 +15,15 @@ const displayMembers = (members) => {
         let company = document.createElement('p');
         let address = document.createElement('p');
         let phone = document.createElement('p');
-        let url = document.createElement('p');
+        let url = document.createElement('a');
         let logo = document.createElement('img');
 
-        company.textContent = `${member.name}`
+        company.textContent = `${member.name}`;
+        company.classList.add("busname");
         address.textContent = `${member.street} Colorado Springs, CO ${member.zipcode}`;
         phone.textContent = `${member.phone}`;
-        url.textContent = `${member.website}`;
+        url.href = `${member.website}`;
+        url.innerHTML = `${member.website}`;
         logo.src = `https://nstod2.github.io/wdd230/chamber/images/${member.imagename}`;
         logo.alt = `${member.name}`;
 
