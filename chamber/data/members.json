@@ -6,7 +6,7 @@
             "zipcode": "80918",
             "phone": "(719) 268-9522",
             "website": "https://www.epicmountaingear.com/",
-            "image-name": "epic.webp",
+            "imagename": "epic.webp",
             "membership": "Silver",
             "slogan": "Gear you can trust!"
         },
@@ -16,7 +16,7 @@
             "zipcode": "80909",
             "phone": "(719) 473-5292",
             "website": "https://www.kawa-coffee.com/",
-            "image-name": "kawacoffee.webp",
+            "imagename": "kawacoffee.webp",
             "membership": "Gold",
             "slogan": "Come be awake with us!"
         },
@@ -26,7 +26,7 @@
             "zipcode": "80903",
             "phone": "(719) 368-7997",
             "website": "https://rockymountainsoapmarket.com",
-            "image-name": "rmsoap.webp",
+            "imagename": "rmsoap.webp",
             "membership": "Silver",
             "slogan": "Passionately crafted with the heart of the Rockies!"
         },
@@ -36,7 +36,7 @@
             "zipcode": "80904",
             "phone": "(719) 308-5096",
             "website": "https://heartshakestudios.com/",
-            "image-name": "heartshake.webp",
+            "imagename": "heartshake.webp",
             "membership": "Bronze",
             "slogan": "We aim to support local brands!"
         },
@@ -46,7 +46,7 @@
             "zipcode": "80917",
             "phone": "(719) 548-9378",
             "website": "https://www.myfloralshop.com/",
-            "image-name": "floral.webp",
+            "imagename": "floral.webp",
             "membership": "Gold",
             "slogan": "Experience the joy of beautiful, handcrafted arrangements!"
         },
@@ -56,7 +56,7 @@
             "zipcode": "80903",
             "phone": "(719) 418-6480",
             "website": "https://www.pikespeaklemonade.com/",
-            "image-name": "pplemonade.webp",
+            "imagename": "pplemonade.webp",
             "membership": "Silver",
             "slogan": "Happy people drink lemonade!"
         },
@@ -66,7 +66,7 @@
             "zipcode": "80918",
             "phone": "(719) 271-0990",
             "website": "http://www.thecupcakedoctor.com/home.html",
-            "image-name": "cupcake.webp",
+            "imagename": "cupcake.webp",
             "membership": "Silver",
             "slogan": "Because Our Cupcakes are the Cure!"
         },
@@ -76,7 +76,7 @@
             "zipcode": "80903",
             "phone": "(719) 578-5549",
             "website": "https://poorrichardsbookstore.com/",
-            "image-name": "bookstore.webp",
+            "imagename": "bookstore.webp",
             "membership": "Silver",
             "slogan": "It's about the Experience!"
         }
