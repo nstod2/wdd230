@@ -266,13 +266,10 @@ footer {
 .pics img {
     width: 80%;
     height: auto;
-
-
 }
 
 .pics {
     position: relative;
-
 }
 
 .pics span {
@@ -281,6 +278,11 @@ footer {
     left: 15px;
     color: #023047;
     background-color: rgb(255, 255, 255, .40);
+}
+
+#grid {
+    width: 36px;
+    height: 36px;
 }
 
 #grid1 {
