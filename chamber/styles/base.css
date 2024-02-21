@@ -172,13 +172,16 @@ h1 {
 }
 
 .eventcard h3 {
-    padding: .75rem;
+    padding: 1.5rem;
+    font-size: 24px;
 }
 
 .eventcard p {
     text-align: left;
-    padding-left: .75rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     padding-bottom: 1rem;
+    font-size: 20px;
 }
 
 .weathercard {
@@ -189,6 +192,7 @@ h1 {
     margin: 1rem 0;
     background-color: white;
     color: #023047;
+    padding-bottom: 15px;
 }
 
 .weathercard h2 {
@@ -201,13 +205,52 @@ h1 {
 }
 
 .weathercard p {
+    padding: .2rem;
+    text-align: center;
+}
+
+.weathercard h4 {
     padding: .4rem;
     text-align: center;
 }
 
+
 #parent2 {
     margin: 1rem;
     max-width: 1200px;
+}
+
+#temptoday,
+#temp1,
+#temp2,
+#temp3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#todaydesc,
+#desc1,
+#desc2,
+#desc3 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+#todayicon,
+#icon1,
+#icon2,
+#icon3 {
+    width: 20px;
+    height: auto;
+    background-color: #8ECAE6;
+}
+
+
+
+.threeday {
+    text-align: center;
 }
 
 .business1,
