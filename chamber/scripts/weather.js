@@ -54,7 +54,7 @@ function displayResults(data) {
 apiFetch();
 
 const thisday = new Date();
-const weekday = thisday.getDay;
+const weekday = thisday.getDay();
 
 const hero = document.querySelector('.hero');
 
