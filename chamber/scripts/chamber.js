@@ -14,7 +14,8 @@ const hour = today.getHours();
 const min = today.getMinutes();
 const sec = today.getSeconds();
 let dateTime = month + '/' + day + '/' + year + ' ' + hour + ':' + min + ':' + sec;
-document.querySelector('#lastModified').textContent = `Last Modification: ${dateTime}`;
-document.querySelector('#copyright').innerHTML = `&copy ${year}`;
+document.querySelector('.lastModified').textContent = `Last Modification: ${dateTime}`;
+document.querySelector('.copyright').innerHTML = `&copy ${year}`;
+
 
 
