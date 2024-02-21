@@ -24,10 +24,11 @@
 
     .joinus {
         position: absolute;
-        top: 150px;
-        right: 40%;
+        top: 300px;
+        right: 42%;
         font-size: 36px;
     }
+
 
     nav {
         max-width: 1200px;

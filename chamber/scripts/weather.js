@@ -49,8 +49,20 @@ function displayResults(data) {
     desc1.innerHTML = `- ${data.daily[1].weather[0].main} - `;
     desc2.innerHTML = `- ${data.daily[2].weather[0].main} - `;
     desc3.innerHTML = `- ${data.daily[3].weather[0].main} - `;
-
-    
 }
 
 apiFetch();
+
+const today = new Date();
+const weekday = today.getDay;
+
+const hero = document.querySelector('.hero');
+
+if (weekday === 1 || weekday === 2 || weekday === 3) {
+    let banner = document.createElement('h2');
+    banner.innerHTML = 'Come all and join us on Wednesday at 7 pm for a meet and greet!';
+    hero.appendChild(banner);
+    let close = document.createElement('button');
+    close.innerHTML = '❌';
+    hero.appendChild(close);
+}
