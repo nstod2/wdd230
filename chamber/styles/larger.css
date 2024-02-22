@@ -269,8 +269,8 @@
 
     .pics span {
         position: absolute;
-        bottom: 50px;
-        left: 25px;
+        bottom: 15px;
+        left: 70px;
         font-size: 16px;
         padding: 10px;
         margin: 5px;
@@ -286,9 +286,11 @@
     form fieldset {
         grid-column: 1/2;
         margin-top: 25px;
-        margin-left: 50px;
+        margin-left: 75px;
         padding: 25px;
     }
+
+
 
     #levels {
         grid-column: 2/3;
