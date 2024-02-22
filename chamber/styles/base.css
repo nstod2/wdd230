@@ -235,6 +235,16 @@ h1 {
     max-width: 1200px;
 }
 
+#parent2 section {
+    text-align: center;
+    padding: 10px;
+}
+
+#parent2 section img {
+    height: 60px;
+    width: auto;
+}
+
 #temptoday,
 #temp1,
 #temp2,
@@ -280,18 +290,7 @@ h1 {
     color: #023047;
 }
 
-.business1 h3,
-.business2 h3,
-.business3 h3 {
-    text-align: center;
-    padding: 10px;
-}
 
-.business1 p,
-.business2 p,
-.business3 p {
-    text-align: center;
-}
 
 .slogan {
     padding-bottom: 5px;
@@ -385,7 +384,8 @@ footer {
 
 .pics {
     position: relative;
-    margin-top: 20px;
+    text-align: center;
+    margin-top: 25px;
     margin-bottom: 45px;
 }
 
@@ -469,7 +469,7 @@ form fieldset {
     margin-bottom: 50px;
     border: 2px solid #023047;
     border-radius: 10px;
-    padding: 25px;
+    padding: 15px;
     background-color: #b4e7ff;
 }
 
@@ -497,6 +497,10 @@ form label.above input {
     width: 100%;
     max-width: 320px;
     background-color: #e0f5ff;
+}
+
+#formbox fieldset input {
+    max-width: 290px;
 }
 
 #desc {
@@ -527,6 +531,10 @@ form input.submitBtn {
     padding: 12px 24px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+#levels {
+    padding: 10px;
 }
 
 .member {
