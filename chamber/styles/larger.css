@@ -29,6 +29,9 @@
         font-size: 36px;
     }
 
+    .hero h2 {
+        font-size: 36px;
+    }
 
     nav {
         max-width: 1200px;
@@ -74,6 +77,16 @@
         column-gap: 10px;
         margin: 0 auto;
         padding: 10px;
+    }
+
+    #parent2 section {
+        text-align: center;
+        padding: 15px;
+    }
+
+    #parent2 section img {
+        width: auto;
+        height: 90px;
     }
 
     footer {
